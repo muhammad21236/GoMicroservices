@@ -1,4 +1,8 @@
-frontApp
+# Ignore Go build outputs
+*.exe
 brokerApp
-frontApp.exe
-brokerApp.exe
+authApp
+frontApp
+
+# Ignore database volume
+/db-data
